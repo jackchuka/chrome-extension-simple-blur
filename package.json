@@ -1,0 +1,34 @@
+{
+  "name": "chrome-extension-simple-blur",
+  "version": "1.0.0",
+  "description": "chrome-extension-simple-blur",
+  "main": "index.js",
+  "scripts": {
+    "watch": "webpack --config webpack/webpack.dev.js --watch",
+    "build": "webpack --config webpack/webpack.prod.js",
+    "clean": "rimraf dist",
+    "test": "npx jest",
+    "style": "prettier --write \"src/**/*.{ts,tsx}\""
+  },
+  "author": "jackchuka",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jackchuka/chrome-extension-simple-blur.git"
+  },
+  "devDependencies": {
+    "@types/chrome": "0.0.143",
+    "@types/jest": "^26.0.24",
+    "copy-webpack-plugin": "^6.1.0",
+    "glob": "^7.1.6",
+    "jest": "^26.6.3",
+    "prettier": "^2.2.1",
+    "rimraf": "^3.0.2 ",
+    "ts-jest": "^26.5.5",
+    "ts-loader": "^6.2.1",
+    "typescript": "~3.8.3 ",
+    "webpack": "^4.44.1",
+    "webpack-cli": "~3.3.11",
+    "webpack-merge": "~4.2.2"
+  }
+}

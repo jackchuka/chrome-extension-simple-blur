@@ -1,0 +1,5 @@
+img,
+video {
+  filter: blur(20px);
+  opacity: 70%;
+}
